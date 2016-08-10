@@ -1,0 +1,16 @@
+counter的使用
+
+<style type="text/css">
+.add{counter-reset: sum}
+#num1:checked{counter-increment: sum 1}
+#num2:checked{counter-increment: sum 4}
+#num3:checked{counter-increment: sum -3}
+.sum::before{content:' ' '=' counter(sum);}
+</style>
+
+<div class="add">
+	<input type="checkbox" id="num1"><label for="num1">1</label>
+	<input type="checkbox" id="num2"><label for="num2">4</label>
+	<input type="checkbox" id="num3"><label for="num3">-3</label>
+	<strong class="sum"></strong>
+</div>
