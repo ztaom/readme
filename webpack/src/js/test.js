@@ -1,0 +1,2 @@
+require('../less/test.less')
+
