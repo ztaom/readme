@@ -6,6 +6,8 @@ const CommonsChunkPlugin = require('webpack/lib/optimize/CommonsChunkPlugin');//
 const AssetsPlugin = require('assets-webpack-plugin')
 var assetsPluginInstance = new AssetsPlugin()
 
+var devServer = require("webpack-dev-server");
+
 module.exports = {
   entry: {
     index: './src/js/index.js',

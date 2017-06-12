@@ -10,7 +10,8 @@
     "build": "rimraf dist && webpack -p --env.config production",
     "build-dev": "webpack --config ./build/webpack.dev.config.js",
     "build-dist": "webpack --config ./build/webpack.dist.config.js",
-    "dev": "npm run clear && npm run build-dev -- --watch",
+    "devserver": "webpack-dev-server -d --hot --env.dev",
+    "dev": "npm run clear && tnpm run devserver && npm run build-dev -- --watch",
     "release-dev": "npm run clear && npm run build-dev",
     "release": "npm run clear && npm run build"
   },
