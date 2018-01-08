@@ -1,4 +1,5 @@
 ## 异步加载图片
+```bash 
 var loadImg = function (url) {
     return new Promise(function (resolve, reject) {
         var img = new Image();
@@ -19,3 +20,5 @@ Promise.all([
 ]).then(function () {
     alert('all images are loaded!')
 });
+
+```  
