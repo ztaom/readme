@@ -30,7 +30,7 @@
 - 掌握JavaScript语法结构，对复杂的项目自己开发有一定难度，所以不能精通
 - 熟悉ES6语法、git操作，熟练掌握webpack自动化打包技术
 - 熟练掌握VUE开发，了解react
-- 掌握jquery和zepto(目前没用到)
+- 掌握jquery和zepto
 - 掌握PhotoShop相关方法，熟悉AE动画转H5动画的相关技术
 ## 作品
 ```
